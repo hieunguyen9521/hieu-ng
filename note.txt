@@ -1,0 +1,13 @@
+# Một số lệnh sử dụng với Terminal 
+- cd: Di chuyển cấp thư mục. Eg: cd Destop, cd Baitap1
+- ls: Liệt kê tất cả file và thư mục có trong thư mục hiện tại
+
+# Các câu lệnh của git 
+- git clone https://github.com/hieunguyen9521/hieu-ng.git
+=> Tải source code từ github về máy tính
+
+- git status 
+=> Kiểm tra trạng thái của các file
+
+- git add file-name 
+=> Xác nhận các file này sẽ được thêm mới/thay đổi

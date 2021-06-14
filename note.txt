@@ -28,3 +28,5 @@
 
 - git branch
 => kiểm tra đang ở branch nào
+
+### Demo đụng độ code git

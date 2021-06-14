@@ -14,3 +14,8 @@
 - git add . 
 => Xác nhận thêm tất cả các file vừa thêm mới hoặc thay đổi vào vùng Staging
 
+- git commit -m "message"
+=> commit những file đã thay đổi ở phân vùng staging rồi đưa vào phân vùng Local responsitory và kèm theo 1 message 
+
+- git push
+=> Đẩy những thay đổi đã được commit từ local responsitory lên remote responsitory

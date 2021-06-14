@@ -19,3 +19,15 @@
 
 - git push
 => Đẩy những thay đổi đã được commit từ local responsitory lên remote responsitory
+
+- git checkout -b <branch-name>
+=> Tạo ra 1 branch mới từ branch hiện tại, sau khi tạo branch nó sẽ tự động chuyển sang branch mới
+
+- git checkout <branch-name>
+=> Chuyển sang branch <branch-name>
+
+- git branch 
+=> Liệt kê tất cả các branch đang có
+
+- git pull
+=> Đồng bộ các commit mới nhất của remote branch về local branch

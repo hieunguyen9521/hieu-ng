@@ -30,3 +30,23 @@
 => kiểm tra đang ở branch nào
 
 ### Demo đụng độ code git
+- git checkout -b <branch-name>
+=> Tạo ra 1 branch mới từ branch hiện tại, sau khi tạo branch nó sẽ tự động chuyển sang branch mới
+
+- git checkout <branch-name>
+=> Chuyển sang branch <branch-name>
+
+- git branch 
+=> Liệt kê tất cả các branch đang có
+
+- git pull
+=> Đồng bộ các commit mới nhất của remote branch về local branch
+
+
+*** Cách fix đụng độ code (conflict) khi merge 1 branch vào master
+B1: git checkout master -> chuyển về branch master
+B2: git pull -> đồng bộ code branch master ở local và remote
+B3: git checkout branchname -> chuyển về branchname
+B4: git merge master -> hợp nhất những commit mới nhất của master và branchname
+B5: chọn phương án Merge để fix conflict
+B6: Add, comit và push feature-a lên remote
